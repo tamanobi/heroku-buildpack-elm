@@ -18,7 +18,7 @@ if test -f ${build}/.buildpack.env; then
 fi
 
 ELM_VERSION="0.19"
-CACHE_BUILD_OBJECTS=${CACHE_BUILD_OBJECTS:-true}
+CACHE_BUILD_OBJECTS=${CACHE_BUILD_OBJECTS:-false}
 
 error() {
     msg=$1
